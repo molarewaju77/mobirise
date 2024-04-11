@@ -6,6 +6,9 @@ function changeBg() {
     } else{
         navbar.classList.add('bgColor')
     }
+    function animate() {
+        requestAnimationFrame(changeBg);
+    }
 }
 window.addEventListener('scroll' , changeBg);
 window.addEventListener('touchmove' , changeBg);
