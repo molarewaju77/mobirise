@@ -1195,7 +1195,7 @@ position: absolute;
     width: 65px;
     height: 65px;
     border-radius: 50%;
-    outline: 2px solid white;
+    border: 2px solid white;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -1203,30 +1203,30 @@ position: absolute;
     position: relative;
 }
 #section-14 .contact-box .background-location{
-    width: 68px;
-    height: 68px;
+    width: 65px;
+    height: 65px;
     position:absolute;
     border-radius: 50%;
     background-color: #A8AAF1;
-    transform: translate(4px, 4px);
+    transform: translate(5px, 5px);
     transition: transform 0.2s ease-out;
 }
 #section-14 .contact-box .background-envelope{
-    width: 68px;
-    height: 68px;
+    width: 65px;
+    height: 65px;
     position:absolute;
     border-radius: 50%;
     background-color:#FF9083;
-    transform: translate(4px, 4px);
+    transform: translate(5px, 5px);
     transition: transform 0.2s ease-out;
 }
 #section-14 .contact-box .background-telephone{
-    width: 68px;
-    height: 68px;
+    width: 65px;
+    height: 65px;
     position:absolute;
     border-radius: 50%;
     background-color:#72DFE9;
-    transform: translate(4px, 4px);
+    transform: translate(5px, 5px);
     transition: transform 0.2s ease-out;
 }
 #section-14 .contact-contain:hover .background-location,
@@ -1248,7 +1248,7 @@ position: absolute;
 #section-14 div .contact-box .envelope:hover,
 #section-14 div .contact-box .telephone:hover
 {
-    outline:none;
+    border:none;
 }
 #section-14 .contact-contain .location-icon,
 #section-14 .contact-contain .envelope-icon,
@@ -1741,8 +1741,8 @@ position: absolute;
     #section-14 .contact-box .background-telephone,
      #section-14 .contact-box .background-location
     {
-    width: 63px;
-        height:63px
+    width: 60px;
+        height:60px
     }
     #section-14 div .contact-box .location,
     #section-14 div .contact-box .envelope,
