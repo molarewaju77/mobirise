@@ -950,19 +950,19 @@ position: absolute;
 .team-container .team-text .linkin{
     color:black;
     font-size: 16px;
-    height: 37px;
-    width: 37px;
+    height: 41px;
+    width: 41px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    outline: 2px solid black;
+    border: 2px solid black;
 }
 .team-text div .twitter-wrapper .twitter-border{
     height: 41px;
     width: 41px;
-    transform: translate(3px, 3px);
+    transform: translate(4px, 4px);
     background-color:#A8AAF1;
     border-radius: 50%;
     position: absolute;
@@ -971,7 +971,7 @@ position: absolute;
 .team-text div .facebook-wrapper .facebook-border{
     height: 41px;
     width: 41px;
-    transform: translate(3px, 3px);
+    transform: translate(4px, 4px);
     background-color:#FF9083;
     border-radius: 50%;
     position: absolute;
@@ -980,7 +980,7 @@ position: absolute;
 .team-text div .linkin-wrapper .linkin-border{
     height: 41px;
     width: 41px;
-    transform: translate(3px, 3px);
+    transform: translate(4px, 4px);
     background-color: #72DFE9;
     border-radius: 50%;
     position: absolute;
@@ -991,15 +991,13 @@ position: absolute;
 .team-text div .linkin-wrapper:hover .linkin-border
 {
     transform: translate(0px, 0px); 
-    height: 38px;
-    width: 38px;
     transition: transform 0.2s ease-in;
 }
 .team-text .facebook-wrapper:hover .facebook, 
 .team-container .twitter-wrapper:hover .twitter,
 .team-container .linkin-wrapper:hover .linkin
 {
-    outline: none !important;
+    border: none !important;
 }
 .team-text .facebook-wrapper:hover .facebook-icon,
 .team-text .twitter-wrapper:hover .twitter-icon,
@@ -1293,6 +1291,10 @@ position: absolute;
 }
 #section-14 div h2{
     font-family: MuseoModerno;
+}
+#section-14 div li a:hover
+{
+    color: #3876E6;
 }
 
 
@@ -1782,6 +1784,16 @@ position: absolute;
     .section-12-text .message{
         height: 210px;   
      }
+     .section-12-text .touch-contain{
+        width: 180px;
+    }
+    .section-12-text div .get-in-touch{
+        width: 150px;
+    }
+    .section-12-text .get-in-touch-bac{
+        width: 150px;
+        transform: translate(4px, 4px);
+    }
     .section-12-text .touch-contain{
         width: 170px;
         margin: 0 auto !important;
@@ -1797,7 +1809,7 @@ position: absolute;
         width: 100%;
     }
     .section-12-text  h1{
-        font-size: 32px;
+        font-size: 25px;
     }
     .section-12-text  p{
         font-size: 16px;
@@ -1844,7 +1856,6 @@ position: absolute;
     .team-container:nth-child(even){
         padding-top: 0px;
     }
-
    .team-container{
     width: 94%;
     padding-bottom:80px;
