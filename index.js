@@ -1,6 +1,6 @@
 function changeBg(){
     var navbar = document.getElementById('navbar');
-    var scrollValue = window.scrollY || windows.pageYOffset; 
+    var scrollValue = window.scrollY || window.pageYOffset; 
     if(scrollValue < 20){
         navbar.classList.remove('bgColor'); 
     } else{
@@ -8,4 +8,4 @@ function changeBg(){
     }
 }
 window.addEventListener('scroll' , changeBg);
-windows.addEventListener('touchmove' , changeBg);
+window.addEventListener('touchmove' , changeBg);

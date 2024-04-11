@@ -2509,7 +2509,7 @@ font-size: 37px !important;
 }
 .bgColor{
     background-color: rgba(255, 255, 255, 0.5) !important;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px) !important;
     transition: all 0.3s;
     box-shadow: 3px 0px 2px 0px;
 }
