@@ -2507,7 +2507,7 @@ font-size: 37px !important;
 {
     background-color: transparent;
 }
-.bgColor{
+.navbar-scrolled{
     background-color: rgba(255, 255, 255, 0.5) !important;
     backdrop-filter: blur(10px) !important;
     transition: all 0.3s;

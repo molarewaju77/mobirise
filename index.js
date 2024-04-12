@@ -1,14 +1,9 @@
-function changeBg() {
-    var navbar = document.getElementById('navbar');
-    var scrollValue = window.scrollY || window.pageYOffset; 
-    if(scrollValue < 20){
-        navbar.classList.remove('bgColor'); 
-    } else{
-        navbar.classList.add('bgColor')
-    }
-    function animate() {
-        requestAnimationFrame(changeBg);
-    }
-}
-window.addEventListener('scroll' , changeBg);
-window.addEventListener('touchmove' , changeBg);
+const navEl = document.querySelector('.navbar');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY >= 20) {
+        navEl.classList.add('navbar-scrolled');}
+        else if (window.scrollY <= 30){
+            navEl.classList.remove('navbar-scrolled');
+        }
+});
