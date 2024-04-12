@@ -2508,7 +2508,7 @@ font-size: 37px !important;
     background-color: transparent;
 }
 .navbar-scrolled{
-    background-color: rgba(255, 255, 255,) !important;
+    background:white !important;
     transition: all 0.3s;
     box-shadow: 3px 0px 2px 0px;
 }
