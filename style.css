@@ -2127,6 +2127,7 @@ position: absolute;
         height: none;
         height:280px;
         width: 93%;
+        margin-bottom: 0px;
     }
     .image-container:hover img{
     transform: none; 
