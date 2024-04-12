@@ -2139,6 +2139,7 @@ position: absolute;
     background-color: rgba(255, 255, 255, 0.5);
     padding-bottom: 30px;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     margin-bottom: -15px;
 }
 #section-1-home nav div .language
